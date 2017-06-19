@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <title>Math</title>
+    <link rel="stylesheet" type="text/css" href="math.css" media="screen"></link>
+</head>
+
+<body>
+    <script src="DragDropTouch.js"></script>
+    <script src="math.js"></script>
+    <div class="wrapper">
+
+        <div class="box">3</div>
+        <div class="box-alt">+</div>
+        <div class="box">2</div>
+        <div class="box-alt">=</div>
+        <div id="ans1" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">&nbsp;</div>
+
+        <div class="box">40</div>
+        <div class="box-alt">&times;</div>
+        <div class="box">7</div>
+        <div class="box-alt">=</div>
+        <div id="ans2" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">&nbsp;</div>
+
+        <div class="box">8</div>
+        <div class="box-alt">&div;</div>
+        <div class="box">2</div>
+        <div class="box-alt">=</div>
+        <div id="ans3" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">&nbsp;</div>
+
+        <div class="box">9</div>
+        <div class="box-alt">-</div>
+        <div class="box">6</div>
+        <div class="box-alt">=</div>
+        <div id="ans4" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">&nbsp;</div>
+
+        <div class="box">9</div>
+        <div class="box-alt">+</div>
+        <div class="box">9</div>
+        <div class="box-alt">=</div>
+        <div id="ans5" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">&nbsp;</div>
+
+        <!-- spacer -->
+       <div class="box-alt"></div>
+       <div class="box-alt"></div>
+       <div class="box-alt"></div>
+       <div class="box-alt"></div>
+       <div class="box-alt"></div>
+
+        <!-- options -->
+        <div id="opt1" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">5</div>
+        <div id="opt2" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">4</div>
+        <div id="opt3" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">3</div>
+        <div id="opt4" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">280</div>
+        <div id="opt5" class="box" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">18</div>
+    
+    </div>
+    
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    
+</body>
+
+</html>
